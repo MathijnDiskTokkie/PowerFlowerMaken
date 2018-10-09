@@ -199,6 +199,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -320,6 +321,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+<<<<<<< HEAD
+    <Content Include="Views\Shared\MenuPartial.cshtml" />
+=======
+    <Content Include="Views\Roles\index.cshtml" />
+    <Content Include="Views\Roles\Edit.cshtml" />
+>>>>>>> a75d370f84430f54feade7df7b7465a0209e0b3f
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
