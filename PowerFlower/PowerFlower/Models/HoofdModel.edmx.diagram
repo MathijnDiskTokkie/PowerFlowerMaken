@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ab4037468c64b4ab5ed8dd40c6b5fca" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="FlowerpowerModel.bestelling" Width="1.5" PointX="3.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.klant" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.medewerkers" Width="1.5" PointX="6.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.producten" Width="1.5" PointX="10.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.sysdiagrams" Width="1.5" PointX="15.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.winkel" Width="1.5" PointX="0.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerpowerModel.winkelmand" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="FlowerpowerModel.FK_bestelling_klant" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerpowerModel.FK_bestelling_medewerkers" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerpowerModel.FK_bestelling_winkel" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerpowerModel.FK_winkelmand_bestelling" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerpowerModel.FK_medewerkers_winkel" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerpowerModel.FK_winkelmand_producten" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
